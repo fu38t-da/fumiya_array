@@ -11,14 +11,31 @@ console.log(fruits_colors[1]);
 
 //3array
 
+// let array = [
+//   {
+//       HP: 250,
+//       MP: 30,
+//       attack: [
+//         '攻撃',
+//         '必殺技',
+//         '逃げる'
+//     ],
+//   }
+// ];
+
+// console.log(array);
+
 let array = [
   {
-      HP: 250,
-      MP: 30,
-      attack: [
-        '攻撃',
-        '必殺技',
-        '逃げる'
+    HP: 250,
+    MP: 30,
+    attack: [
+      {
+        '攻撃': '必殺技',
+        '逃げる': [
+          'ダッシュ', 'かわす'
+        ],
+      },
     ],
   },
 ];
