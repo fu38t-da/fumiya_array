@@ -1,4 +1,6 @@
+// -------------------------//
 //2array
+// -------------------------//
 
 let fruits_colors = [
   ['apple','りんご','orange','みかん'],
@@ -9,7 +11,10 @@ console.log(fruits_colors);
 console.log(fruits_colors[0]);
 console.log(fruits_colors[1]);
 
+// -------------------------//
 //3array
+// -------------------------//
+
 
 // let array = [
 //   {
@@ -25,7 +30,12 @@ console.log(fruits_colors[1]);
 
 // console.log(array);
 
-let array = [
+// -------------------------//
+// 4array
+// -------------------------//
+
+
+let array4 = [
   {
     HP: 250,
     MP: 30,
@@ -40,4 +50,37 @@ let array = [
   },
 ];
 
-console.log(array);
+console.log(array4);
+
+// -------------------------//
+// 5array
+// -------------------------//
+
+
+let array5 = [
+  {
+    HP: 250,
+    MP: 30,
+    attack: [
+      {
+        '攻撃': '必殺技',
+        '逃げる': [
+          {
+          'ダッシュ':[
+            {
+          '体力消費' , '転倒'
+          }
+            ],
+           'かわす':[
+             {
+            '逃げ切る' , '捕まる'
+           }
+          ],
+         }
+        ],
+      },
+    ],
+  },
+];
+
+console.log(array5);
